@@ -1,0 +1,393 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_custom_command"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "examples::@570eefa0ada41b85b90e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "builder_core::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "builder_list::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "builder_basic::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "builder_stream::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "builder_stream_customization::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "decimal128::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "getting_values::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "view_and_value::@4d25101141564d883665"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "aggregate::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "bulk_write::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "connect::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "create::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "document_validation::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "exception::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "get_values_from_documents::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "gridfs::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "index::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "inserted_id::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "instance_management::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "aggregation_examples::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "runcommand_examples::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "index_examples::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "documentation_examples::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "usage_overview::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "query_projection::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "query::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "remove::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "tailable_cursor::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "tutorial::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "update::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "view_or_value_variant::@565068e858551125b061"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "pool::@565068e858551125b061"
+		}
+	],
+	"id" : "run-examples::@570eefa0ada41b85b90e",
+	"name" : "run-examples",
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/examples",
+		"source" : "build/_deps/libmongocxx-src/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/examples/CMakeFiles/run-examples",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/examples/CMakeFiles/run-examples.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

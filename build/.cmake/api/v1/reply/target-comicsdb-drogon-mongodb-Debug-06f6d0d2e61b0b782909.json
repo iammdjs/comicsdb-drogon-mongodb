@@ -1,0 +1,480 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "comicsdb-drogon-mongodb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_directories",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/local/lib/cmake/Drogon/DrogonTargets.cmake",
+			"/usr/local/lib/cmake/Drogon/DrogonConfig.cmake",
+			"/usr/local/lib/cmake/Trantor/TrantorTargets.cmake",
+			"/usr/local/lib/cmake/Trantor/TrantorConfig.cmake",
+			"/usr/local/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/local/lib/cmake/Drogon/FindJsoncpp.cmake",
+			"/usr/local/lib/cmake/Drogon/FindUUID.cmake",
+			"/usr/local/lib/cmake/Drogon/FindBrotli.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 57,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 16
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 65,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 42,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 20
+			},
+			{
+				"file" : 7,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 110,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 55,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 24
+			},
+			{
+				"file" : 8,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 45,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 28,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/models"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/include/mongocxx/v_noabi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/lib/mongocxx/v_noabi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/lib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/lib/mongocxx/v_noabi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/lib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/include/bsoncxx/v_noabi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/lib/bsoncxx/v_noabi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/lib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/lib/bsoncxx/v_noabi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/lib"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/jsoncpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "bsoncxx_shared::@d6cdf4ebe8552fe6f3ca"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mongocxx_shared::@07c1843bb6db58924a85"
+		}
+	],
+	"id" : "comicsdb-drogon-mongodb::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/include",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/include",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/include",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/include",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/include:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/include:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/include:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/include:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libdrogon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "_deps/libmongocxx-build/src/mongocxx/libmongocxx.so.3.10.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "_deps/libmongocxx-build/src/bsoncxx/libbsoncxx.so.3.10.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libtrantor.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libjsoncpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libbrotlidec.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libbrotlienc.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "comicsdb-drogon-mongodb",
+	"nameOnDisk" : "comicsdb-drogon-mongodb",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "comicsdb/comicsdb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "controllers/comicService_v1_Service.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/mongodb_plugin.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

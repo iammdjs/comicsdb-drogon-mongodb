@@ -1,0 +1,50 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"mongocxx_install_export_header"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/src/mongocxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "dev",
+			"destination" : "include/mongocxx/v_noabi/mongocxx/config",
+			"paths" : 
+			[
+				"build/_deps/libmongocxx-build/src/mongocxx/lib/mongocxx/v_noabi/mongocxx/config/export.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/src/mongocxx",
+		"source" : "build/_deps/libmongocxx-src/src/mongocxx"
+	}
+}

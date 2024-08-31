@@ -1,0 +1,124 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"mongocxx_install_pkg_config"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/src/mongocxx/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libmongocxx-build/src/mongocxx/libmongocxx.so.3.10.2",
+				"_deps/libmongocxx-build/src/mongocxx/libmongocxx.so._noabi"
+			],
+			"targetId" : "mongocxx_shared::@07c1843bb6db58924a85",
+			"targetIndex" : 129,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libmongocxx-build/src/mongocxx/libmongocxx.so"
+			],
+			"targetId" : "mongocxx_shared::@07c1843bb6db58924a85",
+			"targetIndex" : 129,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/mongocxx-3.10.2",
+			"exportName" : "mongocxx_targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "mongocxx_shared::@07c1843bb6db58924a85",
+					"index" : 129
+				}
+			],
+			"paths" : 
+			[
+				"_deps/libmongocxx-build/src/mongocxx/cmake/CMakeFiles/Export/4d2c8db062dca6f96d4a9121a0fb39d2/mongocxx_targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/mongocxx-3.10.2",
+			"paths" : 
+			[
+				"build/_deps/libmongocxx-build/src/mongocxx/cmake/mongocxx-config-version.cmake",
+				"build/_deps/libmongocxx-build/src/mongocxx/cmake/mongocxx-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/_deps/libmongocxx-build/src/mongocxx/cmake/libmongocxx.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/src/mongocxx/cmake",
+		"source" : "build/_deps/libmongocxx-src/src/mongocxx/cmake"
+	}
+}

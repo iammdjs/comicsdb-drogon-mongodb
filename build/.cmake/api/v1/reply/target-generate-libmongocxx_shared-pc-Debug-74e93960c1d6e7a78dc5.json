@@ -1,0 +1,85 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"mongocxx_install_pkg_config"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/src/mongocxx/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "generate-libmongocxx_shared-pc::@39bcc34ed25e1f331789",
+	"name" : "generate-libmongocxx_shared-pc",
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/src/mongocxx/cmake",
+		"source" : "build/_deps/libmongocxx-src/src/mongocxx/cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/_deps/libmongocxx-src/src/mongocxx/cmake/libmongocxx.pc.in",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "UTILITY"
+}

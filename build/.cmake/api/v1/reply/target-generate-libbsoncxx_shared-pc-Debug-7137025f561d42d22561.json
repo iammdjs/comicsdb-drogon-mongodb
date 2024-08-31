@@ -1,0 +1,85 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"bsoncxx_install_pkg_config"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/src/bsoncxx/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "generate-libbsoncxx_shared-pc::@bfbc064beb99ba332b25",
+	"name" : "generate-libbsoncxx_shared-pc",
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/src/bsoncxx/cmake",
+		"source" : "build/_deps/libmongocxx-src/src/bsoncxx/cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/_deps/libmongocxx-src/src/bsoncxx/cmake/libbsoncxx.pc.in",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "UTILITY"
+}

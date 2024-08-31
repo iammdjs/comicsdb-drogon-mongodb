@@ -1,0 +1,304 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/libmongocxx-build/benchmark/microbenchmarks"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/benchmark/CMakeLists.txt",
+			"build/_deps/libmongocxx-src/src/mongocxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/include/mongocxx/v_noabi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/lib/mongocxx/v_noabi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/mongocxx/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/lib/mongocxx/v_noabi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/include/bsoncxx/v_noabi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/lib/bsoncxx/v_noabi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-src/src/bsoncxx/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/lib/bsoncxx/v_noabi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx/lib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "bsoncxx_shared::@d6cdf4ebe8552fe6f3ca"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mongocxx_shared::@07c1843bb6db58924a85"
+		}
+	],
+	"id" : "microbenchmarks::@f018be1e3fbf463f5099",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/mongocxx:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongocxx-build/src/bsoncxx:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../src/mongocxx/libmongocxx.so.3.10.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../src/bsoncxx/libbsoncxx.so.3.10.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc:/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "microbenchmarks",
+	"nameOnDisk" : "microbenchmarks",
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/benchmark",
+		"source" : "build/_deps/libmongocxx-src/benchmark"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/bson/bson_decoding.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/bson/bson_encoding.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/multi_doc/find_many.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/multi_doc/gridfs_download.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/multi_doc/gridfs_upload.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/multi_doc/bulk_insert.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/parallel/gridfs_multi_export.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/parallel/gridfs_multi_import.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/parallel/json_multi_import.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/parallel/json_multi_export.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/single_doc/find_one_by_id.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/single_doc/insert_one.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongocxx-src/benchmark/single_doc/run_command.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongocxx-src/benchmark/benchmark_runner.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongocxx-src/benchmark/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongocxx-src/benchmark/microbench.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongocxx-src/benchmark/score_recorder.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,189 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "builder_core::@4d25101141564d883665"
+		},
+		{
+			"id" : "builder_list::@4d25101141564d883665"
+		},
+		{
+			"id" : "builder_basic::@4d25101141564d883665"
+		},
+		{
+			"id" : "builder_stream::@4d25101141564d883665"
+		},
+		{
+			"id" : "builder_stream_customization::@4d25101141564d883665"
+		},
+		{
+			"id" : "decimal128::@4d25101141564d883665"
+		},
+		{
+			"id" : "getting_values::@4d25101141564d883665"
+		},
+		{
+			"id" : "view_and_value::@4d25101141564d883665"
+		},
+		{
+			"id" : "aggregate::@565068e858551125b061"
+		},
+		{
+			"id" : "automatic_client_side_field_level_encryption::@565068e858551125b061"
+		},
+		{
+			"id" : "bulk_write::@565068e858551125b061"
+		},
+		{
+			"id" : "causal_consistency::@565068e858551125b061"
+		},
+		{
+			"id" : "change_streams::@565068e858551125b061"
+		},
+		{
+			"id" : "client_session::@565068e858551125b061"
+		},
+		{
+			"id" : "connect::@565068e858551125b061"
+		},
+		{
+			"id" : "create::@565068e858551125b061"
+		},
+		{
+			"id" : "document_validation::@565068e858551125b061"
+		},
+		{
+			"id" : "exception::@565068e858551125b061"
+		},
+		{
+			"id" : "explicit_encryption::@565068e858551125b061"
+		},
+		{
+			"id" : "explicit_encryption_auto_decryption::@565068e858551125b061"
+		},
+		{
+			"id" : "get_values_from_documents::@565068e858551125b061"
+		},
+		{
+			"id" : "gridfs::@565068e858551125b061"
+		},
+		{
+			"id" : "index::@565068e858551125b061"
+		},
+		{
+			"id" : "inserted_id::@565068e858551125b061"
+		},
+		{
+			"id" : "instance_management::@565068e858551125b061"
+		},
+		{
+			"id" : "aggregation_examples::@565068e858551125b061"
+		},
+		{
+			"id" : "runcommand_examples::@565068e858551125b061"
+		},
+		{
+			"id" : "index_examples::@565068e858551125b061"
+		},
+		{
+			"id" : "documentation_examples::@565068e858551125b061"
+		},
+		{
+			"id" : "usage_overview::@565068e858551125b061"
+		},
+		{
+			"id" : "query_projection::@565068e858551125b061"
+		},
+		{
+			"id" : "query::@565068e858551125b061"
+		},
+		{
+			"id" : "remove::@565068e858551125b061"
+		},
+		{
+			"id" : "server_side_field_level_encryption_enforcement::@565068e858551125b061"
+		},
+		{
+			"id" : "tailable_cursor::@565068e858551125b061"
+		},
+		{
+			"id" : "tutorial::@565068e858551125b061"
+		},
+		{
+			"id" : "update::@565068e858551125b061"
+		},
+		{
+			"id" : "view_or_value_variant::@565068e858551125b061"
+		},
+		{
+			"id" : "with_transaction::@565068e858551125b061"
+		},
+		{
+			"id" : "pool::@565068e858551125b061"
+		}
+	],
+	"id" : "examples::@570eefa0ada41b85b90e",
+	"name" : "examples",
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/examples",
+		"source" : "build/_deps/libmongocxx-src/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/examples/CMakeFiles/examples",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongocxx-build/examples/CMakeFiles/examples.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

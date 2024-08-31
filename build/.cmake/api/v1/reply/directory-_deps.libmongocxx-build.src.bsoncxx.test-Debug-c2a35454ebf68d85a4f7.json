@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/src/bsoncxx/test",
+		"source" : "build/_deps/libmongocxx-src/src/bsoncxx/test"
+	}
+}

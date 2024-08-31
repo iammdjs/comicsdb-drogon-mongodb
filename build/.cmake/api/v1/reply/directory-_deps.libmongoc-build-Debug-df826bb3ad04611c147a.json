@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongoc-src/CMakeLists.txt",
+			"build/_deps/libmongoc-src/build/cmake/GenerateUninstaller.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 557,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 571,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/mongo-c-driver",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-src/COPYING",
+				"build/_deps/libmongoc-src/NEWS",
+				"build/_deps/libmongoc-src/README.rst",
+				"build/_deps/libmongoc-src/THIRD_PARTY_NOTICES"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/mongo-c-driver",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-build/uninstall.sh"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libmongoc-build",
+		"source" : "build/_deps/libmongoc-src"
+	}
+}

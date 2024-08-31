@@ -1,0 +1,232 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/libmongoc-build/src/libmongoc/CMakeFiles/utf8proc_obj.dir/__/utf8proc-2.8.0/utf8proc.c.o"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package",
+			"add_compile_options",
+			"mongoc_add_warning_options",
+			"include",
+			"add_definitions",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongoc-src/build/cmake/FindUtf8Proc.cmake",
+			"build/_deps/libmongoc-src/src/libmongoc/CMakeLists.txt",
+			"build/_deps/libmongoc-src/build/cmake/MongoC-Warnings.cmake",
+			"build/_deps/libmongoc-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 762,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 290,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 64,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 411,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c99 -fPIC"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=implicit"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Werror=incompatible-pointer-types"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=int-conversion"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Werror=discarded-qualifiers"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Werror=uninitialized"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_STDARG_H"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "HAVE_UNISTD_H"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "UTF8PROC_STATIC"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_BSD_SOURCE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_DEFAULT_SOURCE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_XOPEN_SOURCE=700"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "utf8proc_obj::@b1b9236d2a0565511a5a",
+	"name" : "utf8proc_obj",
+	"paths" : 
+	{
+		"build" : "_deps/libmongoc-build/src/libmongoc",
+		"source" : "build/_deps/libmongoc-src/src/libmongoc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/utf8proc-2.8.0/utf8proc.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

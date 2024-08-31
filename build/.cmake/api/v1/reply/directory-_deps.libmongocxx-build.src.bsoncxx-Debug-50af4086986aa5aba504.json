@@ -1,0 +1,50 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"bsoncxx_install_export_header"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/src/bsoncxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "dev",
+			"destination" : "include/bsoncxx/v_noabi/bsoncxx/config",
+			"paths" : 
+			[
+				"build/_deps/libmongocxx-build/src/bsoncxx/lib/bsoncxx/v_noabi/bsoncxx/config/export.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build/src/bsoncxx",
+		"source" : "build/_deps/libmongocxx-src/src/bsoncxx"
+	}
+}

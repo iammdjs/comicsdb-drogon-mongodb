@@ -1,0 +1,2085 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/libmongoc-build/src/libmongoc/libmongoc-static-1.0.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"mongoc_add_warning_options",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongoc-src/src/libmongoc/CMakeLists.txt",
+			"build/_deps/libmongoc-src/build/cmake/MongoC-Warnings.cmake",
+			"build/_deps/libmongoc-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 908,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1283,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 909,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 290,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 911,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 930,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 940,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 411,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 923,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 924,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 926,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 928,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 944,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c99"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=implicit"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Werror=incompatible-pointer-types"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=int-conversion"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Werror=discarded-qualifiers"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Werror=uninitialized"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "BSON_STATIC"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "HAVE_STDARG_H"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "HAVE_UNISTD_H"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MESSAGE_ENABLE_CRYPTO"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MESSAGE_ENABLE_CRYPTO_LIBCRYPTO"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MESSAGE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MSG_STATIC"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MCOMMON_NAME_PREFIX=_mongoc_mcommon"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MONGOC_COMPILATION"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MONGOC_STATIC"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "UTF8PROC_STATIC"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_BSD_SOURCE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_DEFAULT_SOURCE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_XOPEN_SOURCE=700"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/zlib-1.3.1"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/src/zlib-1.3.1"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/utf8proc-2.8.0"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/uthash"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/../kms-message/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/src/mongoc"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/src/mongoc"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/../../src/common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/../../src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/../../src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libbson/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/common"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c99"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=implicit"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Werror=incompatible-pointer-types"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=int-conversion"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Werror=discarded-qualifiers"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Werror=uninitialized"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-w"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "BSON_STATIC"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "HAVE_STDARG_H"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "HAVE_UNISTD_H"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MESSAGE_ENABLE_CRYPTO"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MESSAGE_ENABLE_CRYPTO_LIBCRYPTO"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MESSAGE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "KMS_MSG_STATIC"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MCOMMON_NAME_PREFIX=_mongoc_mcommon"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MONGOC_COMPILATION"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MONGOC_STATIC"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "UTF8PROC_STATIC"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_BSD_SOURCE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_DEFAULT_SOURCE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_XOPEN_SOURCE=700"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/zlib-1.3.1"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/src/zlib-1.3.1"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/utf8proc-2.8.0"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/uthash"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/../kms-message/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/src/mongoc"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/src/mongoc"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libmongoc/../../src/common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/../../src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libmongoc/../../src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libbson/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/common"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "bson_static::@6fc1a711b873ba90b4c1"
+		},
+		{
+			"id" : "zlib_obj::@b1b9236d2a0565511a5a"
+		},
+		{
+			"id" : "utf8proc_obj::@b1b9236d2a0565511a5a"
+		}
+	],
+	"id" : "mongoc_static::@b1b9236d2a0565511a5a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/install"
+		}
+	},
+	"name" : "mongoc_static",
+	"nameOnDisk" : "libmongoc-static-1.0.a",
+	"paths" : 
+	{
+		"build" : "_deps/libmongoc-build/src/libmongoc",
+		"source" : "build/_deps/libmongoc-src/src/libmongoc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				129
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/adler32.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/crc32.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/deflate.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/infback.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/inffast.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/inflate.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/inftrees.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/trees.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/zutil.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/compress.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/uncompr.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/gzclose.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/gzlib.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/gzread.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/zlib_obj.dir/__/zlib-1.3.1/gzwrite.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mcd-azure.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mcd-nsinfo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mcd-rpc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-aggregate.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-apm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-array.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-async.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-async-cmd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-buffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-bulk-operation.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-change-stream.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client-pool.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client-side-encryption.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cluster.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cluster-aws.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cluster-sasl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-collection.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-compression.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-counters.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-crypt.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-array.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-cmd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-change-stream.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-cmd-deprecated.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-find.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-find-cmd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-find-opquery.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor-legacy.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-database.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-error.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-deprioritized-servers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-flags.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-find-and-modify.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-generation-map.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-bucket.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-bucket-file.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-file.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-file-list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-file-page.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-handshake.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-host-list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-http.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-index.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-interrupt.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-linux-distro-scanner.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-log.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-matcher.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-matcher-op.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-memcmp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cmd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-opcode.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-optional.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-opts-helpers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-opts.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-read-concern.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-read-prefs.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-rpc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-server-api.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-server-description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-server-stream.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client-session.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-server-monitor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-set.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-shared.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-socket.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-buffered.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-file.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-gridfs.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-gridfs-download.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-gridfs-upload.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-socket.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-timeout.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-topology.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-topology-background-monitoring.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-topology-description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-topology-description-apm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-topology-scanner.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-ts-pool.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-uri.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-util.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-version-functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-write-command.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-write-concern.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/service-gcp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/common/common-b64.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/common/common-md5.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/common/common-thread.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-crypto.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-scram.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-ssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-crypto-openssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-rand-openssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-libressl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-libressl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-crypto-cng.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-rand-cng.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-secure-channel.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-secure-channel.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-crypto-common-crypto.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-rand-common-crypto.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-secure-transport.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-secure-transport.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-openssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-openssl-bio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-openssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-ocsp-cache.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/CMakeFiles/utf8proc_obj.dir/__/utf8proc-2.8.0/utf8proc.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/hexlify.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_b64.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_caller_identity_request.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_crypto_apple.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_crypto_libcrypto.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_crypto_none.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_crypto_windows.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_decrypt_request.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_encrypt_request.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_kmip_response_parser.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_kv_list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_message.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_request.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_request_opt.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_request_str.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_response.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/kms_response_parser.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/libmongoc-src/src/kms-message/src/sort.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/src/mongoc/mongoc-config.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-build/src/libmongoc/src/mongoc/mongoc-version.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-apm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-bulk-operation.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-change-stream.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client-pool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client-side-encryption.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-collection.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-cursor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-database.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-error.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-flags.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-find-and-modify.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-bucket.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-file.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-file-page.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-gridfs-file-list.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-handshake.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-host-list.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-init.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-index.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-iovec.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-log.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-macros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-matcher.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-opcode.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-optional.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-prelude.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-read-concern.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-read-prefs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-server-api.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-server-description.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-client-session.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-sleep.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-socket.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-libressl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls-openssl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-buffered.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-file.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-gridfs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-socket.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-topology-description.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-uri.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-version-functions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-write-concern.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-rand.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-stream-tls.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/mongoc-ssl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libmongoc/src/mongoc/forwarding/mongoc.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,382 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_export_target",
+			"mongo_generate_pkg_config",
+			"install_package_config_file",
+			"include"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongoc-src/src/libbson/CMakeLists.txt",
+			"build/_deps/libmongoc-src/build/cmake/GeneratePkgConfig.cmake",
+			"build/_deps/libmongoc-src/build/cmake/LegacyPackage.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 311,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 236,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 247,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 311,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 338,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 236,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 247,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 342,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 360,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 399,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 22
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libmongoc-build/src/libbson/libbson-static-1.0.a"
+			],
+			"targetId" : "bson_static::@6fc1a711b873ba90b4c1",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bson-1.0",
+			"exportName" : "bson_static-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "bson_static::@6fc1a711b873ba90b4c1",
+					"index" : 42
+				}
+			],
+			"paths" : 
+			[
+				"_deps/libmongoc-build/src/libbson/CMakeFiles/Export/6b6c9c432ffbcc14133f82ac0df53b76/bson_static-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				{
+					"from" : "build/_deps/libmongoc-build/src/libbson/bson_static-pkg-config-tmp.txt",
+					"to" : "libbson-static-1.0.pc"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libmongoc-build/src/libbson/libbson-1.0.so.0.0.0",
+				"_deps/libmongoc-build/src/libbson/libbson-1.0.so.0"
+			],
+			"targetId" : "bson_shared::@6fc1a711b873ba90b4c1",
+			"targetIndex" : 41,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libmongoc-build/src/libbson/libbson-1.0.so"
+			],
+			"targetId" : "bson_shared::@6fc1a711b873ba90b4c1",
+			"targetIndex" : 41,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bson-1.0",
+			"exportName" : "bson_shared-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "bson_shared::@6fc1a711b873ba90b4c1",
+					"index" : 41
+				}
+			],
+			"paths" : 
+			[
+				"_deps/libmongoc-build/src/libbson/CMakeFiles/Export/6b6c9c432ffbcc14133f82ac0df53b76/bson_shared-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				{
+					"from" : "build/_deps/libmongoc-build/src/libbson/bson_shared-pkg-config-tmp.txt",
+					"to" : "libbson-1.0.pc"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include/libbson-1.0/bson",
+			"paths" : 
+			[
+				{
+					"from" : "build/_deps/libmongoc-src/src/libbson/src/bson",
+					"to" : "."
+				},
+				{
+					"from" : "build/_deps/libmongoc-build/src/libbson/src/bson",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "include/libbson-1.0",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-src/src/libbson/src/bson/forwarding/bson.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Devel",
+			"destination" : "lib/cmake/bson-1.0",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-build/src/libbson/bson/bson-1.0-config.cmake",
+				"build/_deps/libmongoc-build/src/libbson/bson/bson-1.0-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bson-1.0",
+			"exportName" : "bson-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "_mongo-platform::@ab6a61a235c08886617a",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/libmongoc-build/src/libbson/CMakeFiles/Export/6b6c9c432ffbcc14133f82ac0df53b76/bson-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libbson-1.0",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-build/src/libbson/libbson-1.0-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libbson-1.0",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-build/src/libbson/libbson-1.0-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libbson-static-1.0",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-build/src/libbson/libbson-static-1.0-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libbson-static-1.0",
+			"paths" : 
+			[
+				"build/_deps/libmongoc-build/src/libbson/libbson-static-1.0-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libmongoc-build/src/libbson",
+		"source" : "build/_deps/libmongoc-src/src/libbson"
+	}
+}

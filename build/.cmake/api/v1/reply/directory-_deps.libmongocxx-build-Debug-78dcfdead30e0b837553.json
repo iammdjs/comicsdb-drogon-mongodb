@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongocxx-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 398,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/mongo-cxx-driver",
+			"paths" : 
+			[
+				"build/_deps/libmongocxx-src/LICENSE",
+				"build/_deps/libmongocxx-src/README.md",
+				"build/_deps/libmongocxx-src/THIRD-PARTY-NOTICES"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libmongocxx-build",
+		"source" : "build/_deps/libmongocxx-src"
+	}
+}

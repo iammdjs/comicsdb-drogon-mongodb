@@ -1,0 +1,672 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/libmongoc-build/src/libbson/libbson-static-1.0.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"install_export_target",
+			"add_compile_options",
+			"mongoc_add_warning_options",
+			"include",
+			"target_compile_definitions",
+			"mongo_target_requirements",
+			"add_definitions",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"build/_deps/libmongoc-src/src/libbson/CMakeLists.txt",
+			"build/_deps/libmongoc-src/build/cmake/MongoC-Warnings.cmake",
+			"build/_deps/libmongoc-src/CMakeLists.txt",
+			"build/_deps/libmongoc-src/build/cmake/MongoSettings.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 311,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 290,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 369,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 411,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 366,
+				"parent" : 14
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c99 -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=implicit"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Werror=incompatible-pointer-types"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=int-conversion"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Werror=discarded-qualifiers"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Werror=uninitialized"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "BSON_COMPILATION"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "BSON_STATIC"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "JSONSL_PARSE_NAN"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MCOMMON_NAME_PREFIX=_bson_mcommon"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_BSD_SOURCE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_DEFAULT_SOURCE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_XOPEN_SOURCE=700"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/libbson/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/libbson/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-src/src/common"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/_deps/libmongoc-build/src/common"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				7,
+				12,
+				14,
+				17,
+				20,
+				21,
+				24,
+				26,
+				29,
+				31,
+				33,
+				37,
+				39,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				55
+			]
+		}
+	],
+	"id" : "bson_static::@6fc1a711b873ba90b4c1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/RestApiCpp/comicsdb-drogon-mongodb/build/install"
+		}
+	},
+	"name" : "bson_static",
+	"nameOnDisk" : "libbson-static-1.0.a",
+	"paths" : 
+	{
+		"build" : "_deps/libmongoc-build/src/libbson",
+		"source" : "build/_deps/libmongoc-src/src/libbson"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				7,
+				12,
+				14,
+				17,
+				20,
+				21,
+				24,
+				26,
+				29,
+				31,
+				33,
+				37,
+				39,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				55
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				6,
+				8,
+				9,
+				10,
+				11,
+				13,
+				15,
+				16,
+				18,
+				19,
+				22,
+				23,
+				25,
+				27,
+				28,
+				30,
+				32,
+				34,
+				35,
+				36,
+				38,
+				40,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				54,
+				56
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/common/common-b64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/common/common-md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/common/common-thread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bcon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bcon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-atomic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-atomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-clock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-cmp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-compat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-context-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-context.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-context.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-decimal128.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-decimal128.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-endian.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-error.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-iso8601-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-iso8601.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-iter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-iter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-json-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-json.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-json.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-keys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-keys.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-macros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-md5.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-memory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-oid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-oid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-prelude.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-reader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-reader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-timegm-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-timegm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-utf8.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-utf8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-value.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-value.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-version-functions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-version-functions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-writer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson-writer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/bson.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/bson/forwarding/bson.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/jsonsl/jsonsl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/libmongoc-src/src/libbson/src/jsonsl/jsonsl.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
